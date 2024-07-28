@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bruno+Ace+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 101, 119);
+    height: 6vw;
+}
+header .logo{
+    font-size: 2vw;
+    margin-left: 2vw;
+    font-family: "Bruno Ace SC";
+    color: white;
+}
+header .header-links ul{
+    display: flex;
+    gap: 3vw;
+    padding-right: 4vw;
+}
+header .header-links ul li {
+    list-style: none;
+
+}
+header .header-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+body .input-field{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+    align-items: center;
+}
+body .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+    font-family: "Bruno Ace SC";
+}
+body .input input{
+    width: 28vw;
+    height: 2.9vw;
+    font-size: 1.5vw;
+    padding: 0 1vw;
+}
+body .input button{
+    font-size: 2.1vw;
+    background-color: rgb(213, 36, 36);
+    padding: 0 2vw;
+    color: white;
+    border: none;
+}
+body .problem{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    padding-top: 4vw;
+    width: 100%;
+}
+body .second{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw 2vw;
+
+}
+body .second .text{
+    width: 50%;
+    padding-top: 2vw;
+    font-size: 1vw;
+}
+body .second img{
+    width: 50%;
+}
+@media  (max-width:600px){
+    header{
+        height: 5vh;
+    }
+    body .input-field{
+        padding-left: 6vw;
+    }
+    header .logo{
+        font-size: 4vw;
+    }
+    body .input-field{
+        font-size: 2vh;
+    }
+    body .input input{
+        width: 25vh;
+        height: 3vh;
+        font-size: 2vw;
+    }
+    body .input button{
+        width: 9vh;
+        height: 3.5vh;
+    }
+    body .problem{
+        font-size: 5vw;
+    }
+    body .second{
+        flex-direction: column;
+    }
+    body .second img{
+        width: 59%;
+        padding-left: 17vw;
+        margin-top: 9vw;
+    }
+    body .second .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+    }
+    body .second .text{
+        font-size: 3vw;
+    }
+}

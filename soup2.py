@@ -45,7 +45,6 @@ def download_content(url_list:list, n:int, path = '.'):
         download_youtube_video(f"https://www.youtube.com{url_list[i]}", save_path= path)
 
 
-# Close the browser
 
 if __name__ == "__main__":
     urls =  get_links()
